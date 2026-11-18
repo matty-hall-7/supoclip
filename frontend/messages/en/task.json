@@ -281,5 +281,21 @@
       "bumps": "A few bumps along the way. We're working through them—just a little more time.",
       "slower": "Things are moving a bit slower than usual. We're still on it."
     }
+  },
+  "postPack": {
+    "title": "Post pack",
+    "subtitle": "Ready-to-post YouTube Shorts copy, written from this clip and similar videos that are getting views.",
+    "basedOn": "Written from this clip and {count} similar videos that are getting views.",
+    "generate": "Write post pack",
+    "regenerate": "Write again",
+    "generating": "Researching similar videos and writing. This can take a minute or two.",
+    "titles": "Title options",
+    "description": "Description",
+    "hashtags": "Hashtags",
+    "tags": "Tags",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyAll": "Copy title, description and tags",
+    "error": "Couldn't write a post pack. Try again."
   }
 }

@@ -281,5 +281,21 @@
       "bumps": "Ada beberapa rintangan di perjalanan. Sedang kami atasi—butuh sedikit waktu lagi.",
       "slower": "Prosesnya sedikit lebih lambat dari biasanya. Kami masih mengerjakannya."
     }
+  },
+  "postPack": {
+    "title": "Paket posting",
+    "subtitle": "Teks siap posting untuk YouTube Shorts, ditulis dari klip ini dan video serupa yang sedang banyak ditonton.",
+    "basedOn": "Ditulis dari klip ini dan {count} video serupa yang sedang banyak ditonton.",
+    "generate": "Tulis paket posting",
+    "regenerate": "Tulis ulang",
+    "generating": "Meriset video serupa dan menulis. Ini bisa memakan waktu satu atau dua menit.",
+    "titles": "Pilihan judul",
+    "description": "Deskripsi",
+    "hashtags": "Hashtag",
+    "tags": "Tag",
+    "copy": "Salin",
+    "copied": "Tersalin",
+    "copyAll": "Salin judul, deskripsi, dan tag",
+    "error": "Gagal menulis paket posting. Coba lagi."
   }
 }

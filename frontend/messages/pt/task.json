@@ -281,5 +281,21 @@
       "bumps": "Alguns solavancos pelo caminho. Estamos resolvendo—só mais um pouquinho de tempo.",
       "slower": "As coisas estão um pouco mais lentas que o normal. Seguimos trabalhando."
     }
+  },
+  "postPack": {
+    "title": "Pacote de publicação",
+    "subtitle": "Texto pronto para YouTube Shorts, escrito a partir deste clipe e de vídeos parecidos que estão tendo visualizações.",
+    "basedOn": "Escrito a partir deste clipe e de {count} vídeos parecidos que estão tendo visualizações.",
+    "generate": "Escrever pacote",
+    "regenerate": "Escrever de novo",
+    "generating": "Pesquisando vídeos parecidos e escrevendo. Isso pode levar um ou dois minutos.",
+    "titles": "Opções de título",
+    "description": "Descrição",
+    "hashtags": "Hashtags",
+    "tags": "Tags",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyAll": "Copiar título, descrição e tags",
+    "error": "Não foi possível escrever o pacote. Tente novamente."
   }
 }

@@ -281,5 +281,21 @@
       "bumps": "Hay algunos baches en el camino. Los estamos superando—solo necesitamos un poco más de tiempo.",
       "slower": "Las cosas van un poco más despacio de lo habitual. Seguimos en ello."
     }
+  },
+  "postPack": {
+    "title": "Paquete de publicación",
+    "subtitle": "Texto listo para YouTube Shorts, escrito a partir de este clip y de vídeos similares que están consiguiendo visitas.",
+    "basedOn": "Escrito a partir de este clip y de {count} vídeos similares que están consiguiendo visitas.",
+    "generate": "Escribir paquete",
+    "regenerate": "Escribir de nuevo",
+    "generating": "Investigando vídeos similares y escribiendo. Puede tardar uno o dos minutos.",
+    "titles": "Opciones de título",
+    "description": "Descripción",
+    "hashtags": "Hashtags",
+    "tags": "Etiquetas",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyAll": "Copiar título, descripción y etiquetas",
+    "error": "No se pudo escribir el paquete. Inténtalo de nuevo."
   }
 }

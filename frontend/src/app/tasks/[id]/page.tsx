@@ -68,6 +68,7 @@ import { ClipTile, ClipFocus, ProcessingPanel, ProcessingSlots, EmptyState, clip
 import { orderedParts, seriesPartTotal, SeriesView, unfinishedSeries } from "@/components/app/series-view";
 import { HeroClipView } from "@/components/app/hero-clip-view";
 import { DownloadAllButton } from "@/components/app/download-all-button";
+import { PostPackPanel } from "@/components/app/post-pack-panel";
 import { buildRecreateBody, createActionId, isWorkflowErrorCode, WorkflowFailure } from "@/components/app/workflow-failure";
 import { availableWorkflows, useWorkflowsInfo } from "@/components/workflow-picker";
 import { intlLocale } from "@/i18n/config";
@@ -1118,6 +1119,9 @@ export default function TaskPage() {
         hookTypeLabel={getHookTypeLabel}
         actions={focusedClip ? publishButton(focusedClip) : null}
       >
+        {focusedClip && task?.status === "completed" && (
+          <PostPackPanel taskId={task.id} clipId={focusedClip.id} canGenerate={!readOnly} />
+        )}
         {focusedClip && (
           <ClipPostList
             posts={socialPosts.filter((post) => post.clip_id === focusedClip.id)}

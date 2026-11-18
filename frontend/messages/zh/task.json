@@ -281,5 +281,21 @@
       "bumps": "路上有点小颠簸，我们正在处理，再给我们一点时间。",
       "slower": "这次的节奏比平时慢一点，我们还在继续努力。"
     }
+  },
+  "postPack": {
+    "title": "发布素材包",
+    "subtitle": "根据此片段和正在获得播放量的同类视频，生成可直接发布的 YouTube Shorts 文案。",
+    "basedOn": "根据此片段和 {count} 个正在获得播放量的同类视频生成。",
+    "generate": "生成发布素材包",
+    "regenerate": "重新生成",
+    "generating": "正在研究同类视频并撰写文案，可能需要一两分钟。",
+    "titles": "标题选项",
+    "description": "简介",
+    "hashtags": "话题标签",
+    "tags": "标签",
+    "copy": "复制",
+    "copied": "已复制",
+    "copyAll": "复制标题、简介和标签",
+    "error": "无法生成发布素材包，请重试。"
   }
 }

@@ -281,5 +281,21 @@
       "bumps": "Der Weg ist gerade etwas holprig. Wir arbeiten uns durch—noch ein wenig Geduld.",
       "slower": "Heute läuft es etwas langsamer als sonst. Wir bleiben dran."
     }
+  },
+  "postPack": {
+    "title": "Post-Paket",
+    "subtitle": "Fertiger Text für YouTube Shorts, geschrieben aus diesem Clip und ähnlichen Videos mit vielen Aufrufen.",
+    "basedOn": "Geschrieben aus diesem Clip und {count} ähnlichen Videos mit vielen Aufrufen.",
+    "generate": "Post-Paket schreiben",
+    "regenerate": "Neu schreiben",
+    "generating": "Ähnliche Videos werden recherchiert und der Text geschrieben. Das kann ein bis zwei Minuten dauern.",
+    "titles": "Titelvorschläge",
+    "description": "Beschreibung",
+    "hashtags": "Hashtags",
+    "tags": "Tags",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "copyAll": "Titel, Beschreibung und Tags kopieren",
+    "error": "Das Post-Paket konnte nicht geschrieben werden. Bitte erneut versuchen."
   }
 }
